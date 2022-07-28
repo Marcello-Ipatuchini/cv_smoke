@@ -1,2 +1,3 @@
-# cv_smoke
-my first git repository. Here will be all tests  I wrote for Clearvin smoke test
+### Requirements:
+* Python 3.9.13
+* selenium webdriver
