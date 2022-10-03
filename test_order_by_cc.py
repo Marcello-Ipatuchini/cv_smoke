@@ -1,11 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 link = "https://dev:cvdev321@staging.clearvin.com/en/user/login/"
 
 try:
-    #opening stag CV in chrome browser
     browser = webdriver.Chrome()
     browser.implicitly_wait(30)
     browser.get(link)
@@ -32,6 +30,7 @@ try:
     order_btn.click()
     #order page is presented
     order_page = browser.find_element(By.ID, "report-print-button")
+
 
 finally:
 
